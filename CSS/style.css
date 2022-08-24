@@ -4,7 +4,6 @@ body {
     width: 99%;
     max-width: 1240px;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,12 +26,10 @@ ul {
     background-color: rgb(255, 255, 255);
     color: rgb(19, 8, 92);
   }
-
 svg {
     margin: auto;
     color: inherit;
 }
-
 .FlexContainer {
     margin: auto;
     display: flex;
@@ -48,10 +45,19 @@ svg {
     height: 150px;
     margin: 5px;
 }
-
 svg {
     width: 50px;
     padding: 5px;
     text-decoration: none;
     color: black;
   }
+#accueil {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 99%;
+}  
+#accueil img {
+  margin: auto;
+  height: 90px;
+}
