@@ -2,7 +2,10 @@
 body {
     margin: auto;
     max-width: 1240px;
-    font-family:'Barlow', sans-serif;
+    font-family: 'Marvel', sans-serif;
+}
+h1 {
+  font-family: 'Quantico', sans-serif;
 }
 ul {
     list-style-type: none;
@@ -11,16 +14,16 @@ ul {
     overflow: hidden;
     background-color: rgb(19, 8, 92);
   }
-  li {float: left;}
-  li a {
+li {float: left;}
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     justify-content: space-between;
-  }
-  li a:hover { background-color: rgb(255, 255, 255);  color: rgb(19, 8, 92);}
+}
+li a:hover { background-color: rgb(255, 255, 255);  color: rgb(19, 8, 92);}
 svg { margin: auto;   color: inherit;}
 .FlexContainer {
     margin: auto;
@@ -56,3 +59,14 @@ svg {
   max-width: 600px;
   display: flex;
   justify-content: space-between;}
+
+#Page404 {
+  font-family: 'VT323', monospace;
+}  
+#portfolio {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
